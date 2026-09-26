@@ -156,3 +156,51 @@ An AI agent that finds wasted Google Ads spend and proposes fixes, with a human 
 Stack: Next.js, Vercel AI SDK, Claude API, Google Ads MCP, Supabase + pgvector, Langfuse, PostHog, Vercel.
 
 North-star metric: dollars of wasted spend found per connected account.
+
+## After the 12 weeks: certifications and paid courses
+
+For January 2027 onward. Prices in USD; check before paying.
+
+- Portfolio first, certificate second.
+- Pick one cloud certificate (AWS or Microsoft), not three.
+- Get employers to pay for Reforge, Maven and CXL.
+- Apply for Coursera financial aid on any Coursera course.
+
+### AI engineering
+
+| Verdict | Certificate / course | Cost | Valid | When |
+|---|---|---|---|---|
+| take | [Agentic AI](https://www.deeplearning.ai/courses/agentic-ai), Andrew Ng, DeepLearning.AI | Free to audit, ~$25/month for the certificate | No expiry | Jan 2027 |
+| take | [AWS Certified Generative AI Developer – Professional (AIP-C01)](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/), Amazon Web Services | $300 | 3 years | Feb–Mar 2027 |
+| take | [Azure AI App and Agent Developer Associate (AI-103)](https://learn.microsoft.com/en-us/credentials/), Microsoft | $165 US list; Microsoft prices exams by country, so check the Nigeria price at checkout | 1 year, free online renewal | Feb–Mar 2027 |
+| later | [AI Evals For Engineers & PMs](https://maven.com/parlance-labs/evals), Hamel Husain and Shreya Shankar, Maven | Four-figure cohort price; check the page. Promos of $1,250 off have run | Lifetime access | Mid 2027, employer-paid |
+| later | [Claude Certified Architect (Foundations, then Professional)](https://www.pearsonvue.com/us/en/anthropic.html), Anthropic, via Pearson VUE | $125 Foundations, $175 Professional | 12 months | When eligible |
+| maybe | [NVIDIA-Certified Associate: Generative AI LLMs](https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/), NVIDIA | $125–135 | 2 years | Optional |
+| skip | [Google Cloud Professional Machine Learning Engineer](https://cloud.google.com/learn/certification/machine-learning-engineer), Google Cloud | $200 | 2 years | Skip for now |
+
+### Growth and GTM engineering
+
+| Verdict | Certificate / course | Cost | Valid | When |
+|---|---|---|---|---|
+| take | [Google Ads and Google Analytics certifications](https://skillshop.withgoogle.com/), Google Skillshop | Free | 1 year | Jan 2027 |
+| take | [CXL Growth Marketing Minidegree](https://cxl.com/institute/programs/growth-marketing-training/), CXL | $699 one-off (or $1,599/year for all CXL programs, incl. the CRO minidegree) | Lifetime | Apr–Jun 2027 |
+| later | [Reforge membership (incl. Growth Engineering by Alexey Komissarouk)](https://www.reforge.com/courses/growth-engineering/details), Reforge | $1,995/year; courses aren't sold one by one | While subscribed | Year 2, employer-paid |
+| maybe | [Clay University certification](https://university.clay.com/certifications), Clay | Courses free | n/a | Watch for relaunch |
+
+### Nigeria
+
+| Verdict | Certificate / course | Cost | Valid | When |
+|---|---|---|---|---|
+| take | [3MTT DeepTech_Ready programme](https://3mtt.nitda.gov.ng/deeptech/), NITDA / 3 Million Technical Talent with Data Science Nigeria, backed by Google.org | Free | n/a | Next open cohort |
+| skip | [ALX AI Career Essentials](https://www.alxafrica.com/programme/ai-career-essentials/), ALX Africa | Free | n/a | Skip |
+
+### Suggested order
+
+| When | What |
+|---|---|
+| Jan 2027 | Free Google Ads + Analytics certs, Agentic AI certificate, apply to 3MTT DeepTech |
+| Feb-Mar | One cloud cert: AWS GenAI Developer Pro ($300) or Microsoft AI-103 ($165 US list) |
+| Apr-Jun | CXL Growth Marketing Minidegree ($699); Maven AI Evals if employer-paid |
+| Year 2 | Reforge ($1,995/yr, employer-paid); Claude Certified Architect once at a Claude partner |
+
+Lean path: about $200-350. Everything self-paid: about $3,050 plus Maven. With employer paying Reforge and Maven: about $1,050 or less.

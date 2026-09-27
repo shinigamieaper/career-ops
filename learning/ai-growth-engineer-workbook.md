@@ -22,9 +22,9 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 
 ## Week 1: Python from zero + how LLMs work (28 Sept to 4 Oct)
 
-- [ ] **Video:** Learn Python: Full Course for Beginners, freeCodeCamp ([link](https://www.youtube.com/watch?v=rfscVS0vtbw)), 4.5 h. Zero to working Python in one sitting-split video. You know TypeScript, so map as you go: list = array, dict = object, def = function, None = null. Type every example yourself.
+- [ ] **Video:** Python Full Course for Beginners (2025), Programming with Mosh ([link](https://www.youtube.com/watch?v=K5KVEU3aaeQ)), 2.5 h. Two hours, published February 2025, clear and current. You know TypeScript, so map as you go: list = array, dict = object, def = function, None = null. Pause and type every example yourself.
 - [ ] **Course:** Python track, first 10 exercises, Exercism (free, mentor feedback) ([link](https://exercism.org/tracks/python)), 3 h. Short exercises with tests, built for people who already know another language. Request a mentor review on two of them.
-- [ ] **Video:** Intro to Large Language Models, Andrej Karpathy ([link](https://www.youtube.com/watch?v=zjkBMFhNj_g)), 1 h. The one-hour mental model: what an LLM is, what it's good and bad at.
+- [ ] **Video:** Deep Dive into LLMs like ChatGPT, part 1 (to ~1:45), Andrej Karpathy (Feb 2025) ([link](https://www.youtube.com/watch?v=7xTGNNLPyMI)), 1.75 h. Still the best explanation of how LLMs are built: data, tokens, pretraining, base models. Replaces his 2023 intro talk, which predates reasoning models.
 - [ ] **Read:** The Rise of the AI Engineer, swyx, Latent Space ([link](https://www.latent.space/p/ai-engineer)), 0.5 h. The essay that named the role. Tells you what the job is and isn't.
 - [ ] **Read:** What is Growth Engineering?, The Pragmatic Engineer with Alexey Komissarouk ([link](https://newsletter.pragmaticengineer.com/p/what-is-growth-engineering)), 0.5 h. “Writing code to help a company make more money.” The clearest definition of the role.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: restart, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 4 h. Log in first: Coursera usually keeps completed work on your account, so check what's done before you assume a restart. Apply for financial aid, then skim videos you already know and go straight to graded work.
@@ -37,8 +37,8 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 - [ ] **Book:** Automate the Boring Stuff with Python: files, CSV/JSON, web requests, Al Sweigart (free to read online) ([link](https://automatetheboringstuff.com/)), 4 h. Practical Python for the exact work you'll do: read files, parse CSV and JSON, call web APIs.
 - [ ] **Docs:** uv: Python projects and packages, Astral ([link](https://docs.astral.sh/uv/)), 0.5 h. The npm of Python. Use it for every Python project so environments never break.
 - [ ] **Course:** Prompt engineering interactive tutorial, Anthropic (Jupyter notebooks) ([link](https://github.com/anthropics/prompt-eng-interactive-tutorial)), 3 h. Prompting skills plus real Python notebook practice. Two birds, one course.
-- [ ] **Video:** Transformers, the tech behind LLMs + Attention in transformers, 3Blue1Brown ([link](https://www.youtube.com/watch?v=wjZofJX0v4M)), 1 h. Visual picture of tokens, embeddings and attention. Embeddings come back in week 5 for RAG.
-- [ ] **Video:** Deep Dive into LLMs like ChatGPT (optional), Andrej Karpathy ([link](https://www.youtube.com/watch?v=7xTGNNLPyMI)), optional. 3.5 h on pretraining, fine-tuning, RL and hallucinations. Watch it when you have spare evenings; the Intro video covers the essentials.
+- [ ] **Video:** Transformers, the tech behind LLMs + Attention in transformers, 3Blue1Brown (2024) ([link](https://www.youtube.com/watch?v=wjZofJX0v4M)), 1 h. Visual picture of tokens, embeddings and attention. Embeddings come back in week 5 for RAG.
+- [ ] **Video:** Deep Dive into LLMs like ChatGPT, part 2 (from ~1:45), Andrej Karpathy (Feb 2025) ([link](https://www.youtube.com/watch?v=7xTGNNLPyMI)), 1.75 h. Fine-tuning, hallucinations, tool use, reinforcement learning and thinking models. Explains why models fail the way they do.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 4 h. Same slot every week until it's done.
 - [ ] **Build:** Job-post classifier in Python, You ([link](https://docs.claude.com/en/docs/build-with-claude/structured-outputs)), 3 h. Read job posts from a file, send each to Claude, get JSON back: archetype, fit score, reasons. Label 50 yourself and compare.
 
@@ -48,7 +48,6 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 
 - [ ] **Course:** Building with the Claude API, Anthropic Academy (free, certificate) ([link](https://anthropic.skilljar.com/claude-with-the-anthropic-api)), 6 h. API basics, prompting, tool use, RAG and workflows in one course. Do the exercises in Python for practice.
 - [ ] **Course:** Next.js Learn: the dashboard app (database, server actions, auth), Vercel (free, official) ([link](https://nextjs.org/learn/dashboard-app)), 5 h. Fills your backend gap in the framework you know: Postgres, fetching, mutations, authentication. Every ops product needs these.
-- [ ] **Video:** How I use LLMs (optional), Andrej Karpathy ([link](https://www.youtube.com/watch?v=EWvNQjAaOHw)), optional. 2 h practical tour of thinking models, tools, file uploads.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 4 h. Same slot every week until it's done.
 - [ ] **Build:** Add a Claude route to the dashboard app, You ([link](https://docs.claude.com/en/docs/get-started)), 2 h. A route that takes a job post, calls Claude, and saves the result to Postgres.
 
@@ -57,9 +56,9 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 ## Week 4: Agents in TypeScript: Claude Agent SDK (19 Oct to 25 Oct)
 
 - [ ] **Docs:** Claude Agent SDK overview + quickstart, Anthropic ([link](https://docs.claude.com/en/docs/agent-sdk/overview)), 2.5 h. Opt in to your Max plan's monthly Agent SDK credit first, so these runs don't use your API balance. The same agent loop, tools, subagents and MCP support that power Claude Code, in TypeScript or Python. This is how you connect career-ops to Claude agents properly.
-- [ ] **Course:** Vercel AI SDK Tutorial, Matt Pocock, AI Hero (free, 16 lessons) ([link](https://www.aihero.dev/vercel-ai-sdk-tutorial)), 4 h. For the web UI side: streaming, structured output, tool calls in Next.js.
+- [ ] **Course:** Builders Guide to the AI SDK, Vercel Academy (free, certificate) ([link](https://vercel.com/academy/ai-sdk)), 4 h. Vercel's own course, kept current with the latest AI SDK: structured output, streaming chat, tools, in Next.js. Older free tutorials use outdated SDK versions.
 - [ ] **Read:** Building Effective Agents, Anthropic ([link](https://www.anthropic.com/engineering/building-effective-agents)), 0.5 h. Workflows vs agents, and why you start with the simplest pattern that works.
-- [ ] **Video:** Software Is Changing (Again), Andrej Karpathy, YC AI Startup School ([link](https://www.youtube.com/watch?v=LCEmiRjPEtQ)), 0.75 h. Software 3.0 and “partial autonomy” apps: humans approve, agents do the work. That's the ops model.
+- [ ] **Video:** From Vibe Coding to Agentic Engineering, Andrej Karpathy at Sequoia AI Ascent (Apr 2026) ([link](https://www.youtube.com/watch?v=96jN2OCOfLs)), 0.5 h. 29 minutes on how serious agent-built software works now: humans direct and verify, agents do the work. That's the ops model.
 - [ ] **Course:** Select Star SQL, Free interactive book ([link](https://selectstarsql.com/)), 3 h. Backend and growth work both live in SQL: funnels, cohorts, retention.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 3 h. Same slot every week until it's done.
 - [ ] **Build:** Build career-ops' first agent, You ([link](https://docs.claude.com/en/docs/agent-sdk/overview)), 4 h. Start with job evaluation: an agent with tools to read your CV, read the job post, and write a scored report. Your own design, from an empty repo.
@@ -68,9 +67,9 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 
 ## Week 5: RAG: give agents your data (26 Oct to 1 Nov)
 
-- [ ] **Video:** Learn RAG From Scratch, Lance Martin, freeCodeCamp ([link](https://www.youtube.com/watch?v=sVcwVQRHIc8)), 2.5 h. Indexing, retrieval, query rewriting, routing. The notebooks are Python: more practice.
+- [ ] **Course:** Retrieval Augmented Generation (RAG), modules 1 and 2, DeepLearning.AI with Zain Hasan (free to audit on Coursera) ([link](https://www.deeplearning.ai/courses/retrieval-augmented-generation)), 5 h. The most complete current RAG course: keyword, semantic and hybrid search, then vector databases. Do the rest later if RAG becomes central to your product.
 - [ ] **Read:** Introducing Contextual Retrieval, Anthropic ([link](https://www.anthropic.com/news/contextual-retrieval)), 0.5 h. A simple trick that cuts failed retrievals a lot.
-- [ ] **Book:** AI Engineering, chapters 1 and 2, Chip Huyen ([link](https://github.com/chiphuyen/aie-book)), 4 h. Foundation models, sampling, why outputs vary. One page of notes per chapter.
+- [ ] **Book:** AI Engineering, chapter 2, Chip Huyen ([link](https://github.com/chiphuyen/aie-book)), 2 h. Foundation models, sampling, why outputs vary. One page of notes.
 - [ ] **Docs:** AI and Vectors guide (pgvector), Supabase ([link](https://supabase.com/docs/guides/ai)), 1 h. Embeddings in Postgres. One database for app data and vectors.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 3 h. Same slot every week until it's done.
 - [ ] **Build:** RAG over your CV, story bank and past reports, You, 5 h. Every answer cites the file and line it used. This upgrades career-ops' CV tailoring.
@@ -95,7 +94,8 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 - [ ] **Read:** Your AI Product Needs Evals, Hamel Husain ([link](https://hamel.dev/blog/posts/evals/)), 1 h. Three levels: assertions, human and model grading, A/B tests.
 - [ ] **Read:** AI Evals FAQ, Hamel Husain and Shreya Shankar ([link](https://hamel.dev/blog/posts/evals-faq/)), 2 h. Start from real traces, find failure modes, then write evals for the ones that matter.
 - [ ] **Course:** Evaluating AI Agents, DeepLearning.AI x Arize (free) ([link](https://www.deeplearning.ai/courses/evaluating-ai-agents)), 2 h. Tracing, structured experiments, monitoring an agent after launch.
-- [ ] **Book:** AI Engineering, chapters 3 and 4, Chip Huyen ([link](https://github.com/chiphuyen/aie-book)), 4 h. Evaluation methods and how to build an evaluation pipeline.
+- [ ] **Video:** Evals and Context Engineering track talks, AI Engineer World's Fair 2026 (July 2026) ([link](https://yoheinakajima.github.io/aie-talks/)), 1.5 h. Use the Talk Explorer to pick two talks from the Evals track and one from Context Engineering. All are free on the AI Engineer YouTube channel.
+- [ ] **Book:** AI Engineering, chapters 3 and 4, Chip Huyen ([link](https://github.com/chiphuyen/aie-book)), 3 h. Evaluation methods and how to build an evaluation pipeline.
 - [ ] **Build:** Golden set from your own job search history, You ([link](https://hamel.dev/blog/posts/llm-judge/)), 5 h. 50+ JDs you've scored by hand, including ones where the agent's score was wrong. Measure how close the agent gets. Add an LLM judge for report quality.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 3 h. Same slot every week until it's done. From scratch, it may run into January; that's fine.
 
@@ -106,7 +106,7 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 - [ ] **Read:** A software engineer's guide to A/B testing, PostHog ([link](https://posthog.com/product-engineers/ab-testing-guide-for-engineers)), 0.5 h. Hypothesis, goal metric, one change at a time, run for at least a week.
 - [ ] **Book:** Trustworthy Online Controlled Experiments, ch. 1 to 3, Kohavi, Tang, Xu ([link](https://experimentguide.com/)), 3 h. You know ad A/B tests. This covers product experiments and the stats behind a trustworthy result.
 - [ ] **Tool:** Sample size calculator, Evan Miller ([link](https://www.evanmiller.org/ab-testing/sample-size.html)), 0.5 h. Plug in a real conversion rate from a past client and see how much traffic a test needs.
-- [ ] **Video:** The DNA of a Great Growth Engineer, Alexey Komissarouk, Reforge ([link](https://www.youtube.com/watch?v=fFZBZJrnUIg)), 1 h. What separates good growth engineers, from the person who teaches Reforge's course.
+- [ ] **Video:** The DNA of a Great Growth Engineer, Alexey Komissarouk, Reforge (Nov 2023) ([link](https://www.youtube.com/watch?v=fFZBZJrnUIg)), 1 h. Older, but still the clearest talk on what growth engineers do; the role's fundamentals haven't changed. The Elena Verna episode in week 9 covers the 2026 AI angle.
 - [ ] **Course:** Clay 101: GTM Automation, Clay University (free) ([link](https://university.clay.com/courses/clay-101)), 2 h. Prep for prospect-ops: find, enrich, transform, export. GTM engineering in two hours.
 - [ ] **Build:** career-ops landing page + PostHog, You ([link](https://posthog.com/docs/libraries/next-js)), 4 h. Waitlist page, events, a signup funnel, one feature flag. Your GTM event design skills, product side.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 3 h. Same slot every week until it's done. From scratch, it may run into January; that's fine.

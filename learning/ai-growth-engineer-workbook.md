@@ -9,7 +9,7 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 1. 70% build, 30% watch. If you fall behind, cut videos, never the weekly ship.
 2. Every build feeds a real product: the new career-ops or the next ops product. On a bad week, do only the Ship item.
 3. TypeScript for products you ship; Python for notebooks, data scripts and Python-only tools.
-4. Set an API spend limit in the Anthropic Console before week 1.
+4. Weeks 1-3 use the Claude API (billed separately from Max): add $5-10 prepaid credit in the Claude Console, auto-reload off. From week 4 the Agent SDK can use your Max plan's monthly Agent SDK credit.
 
 ## Phases
 
@@ -28,7 +28,7 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 - [ ] **Read:** The Rise of the AI Engineer, swyx, Latent Space ([link](https://www.latent.space/p/ai-engineer)), 0.5 h. The essay that named the role. Tells you what the job is and isn't.
 - [ ] **Read:** What is Growth Engineering?, The Pragmatic Engineer with Alexey Komissarouk ([link](https://newsletter.pragmaticengineer.com/p/what-is-growth-engineering)), 0.5 h. “Writing code to help a company make more money.” The clearest definition of the role.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: restart, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 4 h. Log in first: Coursera usually keeps completed work on your account, so check what's done before you assume a restart. Apply for financial aid, then skim videos you already know and go straight to graded work.
-- [ ] **Build:** First Claude API call in TypeScript, then Python, You ([link](https://docs.claude.com/en/docs/get-started)), 2 h. Set a spend limit first. Write it in TypeScript (familiar), then rewrite it in Python. Comparing the two teaches you Python faster than any video.
+- [ ] **Build:** First Claude API call in TypeScript, then Python, You ([link](https://docs.claude.com/en/docs/get-started)), 2 h. Create an API key in the Claude Console and add $5 to $10 of prepaid credit with auto-reload off; your Max plan doesn't cover direct API calls. Write it in TypeScript (familiar), then rewrite it in Python. Comparing the two teaches you Python faster than any video.
 
 **Ship:** A public GitHub repo (ai-growth-lab) with the same Claude call written in TypeScript and in Python, and a README log.
 
@@ -56,7 +56,7 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 
 ## Week 4: Agents in TypeScript: Claude Agent SDK (19 Oct to 25 Oct)
 
-- [ ] **Docs:** Claude Agent SDK overview + quickstart, Anthropic ([link](https://docs.claude.com/en/docs/agent-sdk/overview)), 2.5 h. The same agent loop, tools, subagents and MCP support that power Claude Code, in TypeScript or Python. This is how you connect career-ops to Claude agents properly.
+- [ ] **Docs:** Claude Agent SDK overview + quickstart, Anthropic ([link](https://docs.claude.com/en/docs/agent-sdk/overview)), 2.5 h. Opt in to your Max plan's monthly Agent SDK credit first, so these runs don't use your API balance. The same agent loop, tools, subagents and MCP support that power Claude Code, in TypeScript or Python. This is how you connect career-ops to Claude agents properly.
 - [ ] **Course:** Vercel AI SDK Tutorial, Matt Pocock, AI Hero (free, 16 lessons) ([link](https://www.aihero.dev/vercel-ai-sdk-tutorial)), 4 h. For the web UI side: streaming, structured output, tool calls in Next.js.
 - [ ] **Read:** Building Effective Agents, Anthropic ([link](https://www.anthropic.com/engineering/building-effective-agents)), 0.5 h. Workflows vs agents, and why you start with the simplest pattern that works.
 - [ ] **Video:** Software Is Changing (Again), Andrej Karpathy, YC AI Startup School ([link](https://www.youtube.com/watch?v=LCEmiRjPEtQ)), 0.75 h. Software 3.0 and “partial autonomy” apps: humans approve, agents do the work. That's the ops model.

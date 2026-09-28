@@ -28,45 +28,48 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 - [ ] **Read:** The Rise of the AI Engineer, swyx, Latent Space ([link](https://www.latent.space/p/ai-engineer)), 0.5 h. The essay that named the role. Tells you what the job is and isn't.
 - [ ] **Read:** What is Growth Engineering?, The Pragmatic Engineer with Alexey Komissarouk ([link](https://newsletter.pragmaticengineer.com/p/what-is-growth-engineering)), 0.5 h. “Writing code to help a company make more money.” The clearest definition of the role.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: restart, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 4 h. Log in first: Coursera usually keeps completed work on your account, so check what's done before you assume a restart. Apply for financial aid, then skim videos you already know and go straight to graded work.
-- [ ] **Build:** First Claude API call in TypeScript, then Python, You ([link](https://docs.claude.com/en/docs/get-started)), 2 h. Create an API key in the Claude Console and add $5 to $10 of prepaid credit with auto-reload off; your Max plan doesn't cover direct API calls. Write it in TypeScript (familiar), then rewrite it in Python. Comparing the two teaches you Python faster than any video.
+- [ ] **Build:** First Claude API call in TypeScript, then Python, You ([link](https://platform.claude.com/docs/en/get-started)), 2 h. Create an API key in the Claude Console and add $5 to $10 of prepaid credit with auto-reload off; your Max plan doesn't cover direct API calls. Write it in TypeScript (familiar), then rewrite it in Python. Comparing the two teaches you Python faster than any video.
 
 **Ship:** A public GitHub repo (ai-growth-lab) with the same Claude call written in TypeScript and in Python, and a README log.
 
 ## Week 2: Python for real work + prompting (5 Oct to 11 Oct)
 
-- [ ] **Book:** Automate the Boring Stuff with Python: files, CSV/JSON, web requests, Al Sweigart (free to read online) ([link](https://automatetheboringstuff.com/)), 4 h. Practical Python for the exact work you'll do: read files, parse CSV and JSON, call web APIs.
-- [ ] **Docs:** uv: Python projects and packages, Astral ([link](https://docs.astral.sh/uv/)), 0.5 h. The npm of Python. Use it for every Python project so environments never break.
-- [ ] **Course:** Prompt engineering interactive tutorial, Anthropic (Jupyter notebooks) ([link](https://github.com/anthropics/prompt-eng-interactive-tutorial)), 3 h. Prompting skills plus real Python notebook practice. Two birds, one course.
+- [ ] **Book:** Automate the Boring Stuff with Python, 3rd edition: ch. 10, 13, 18, Al Sweigart (2025, free to read online) ([link](https://automatetheboringstuff.com/3e/)), 4 h. The 2025 edition. Chapter 10 (files), 13 (web requests) and 18 (CSV and JSON) cover exactly what your scripts will do. Don't use the older 2nd edition links.
+- [ ] **Docs:** uv: first steps + Jupyter guide, Astral ([link](https://docs.astral.sh/uv/guides/integration/jupyter/)), 0.75 h. The npm of Python. Start with the first-steps page, then the Jupyter guide: “uv run --with jupyter jupyter lab” gives you notebooks without breaking your setup.
+- [ ] **Docs:** Prompting best practices, Anthropic docs (kept current) ([link](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)), 1.5 h. Anthropic's living guide for current Claude models. The older interactive tutorial (2024) teaches habits newer models don't need.
+- [ ] **Course:** Prompt engineering interactive tutorial (optional practice), Anthropic (Jupyter notebooks, 2024) ([link](https://github.com/anthropics/prompt-eng-interactive-tutorial)), optional. Only for extra Python notebook practice. Its model advice is dated; trust the best-practices guide where they differ.
 - [ ] **Video:** Transformers, the tech behind LLMs + Attention in transformers, 3Blue1Brown (2024) ([link](https://www.youtube.com/watch?v=wjZofJX0v4M)), 1 h. Visual picture of tokens, embeddings and attention. Embeddings come back in week 5 for RAG.
 - [ ] **Video:** Deep Dive into LLMs like ChatGPT, part 2 (from ~1:45), Andrej Karpathy (Feb 2025) ([link](https://www.youtube.com/watch?v=7xTGNNLPyMI)), 1.75 h. Fine-tuning, hallucinations, tool use, reinforcement learning and thinking models. Explains why models fail the way they do.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 4 h. Same slot every week until it's done.
-- [ ] **Build:** Job-post classifier in Python, You ([link](https://docs.claude.com/en/docs/build-with-claude/structured-outputs)), 3 h. Read job posts from a file, send each to Claude, get JSON back: archetype, fit score, reasons. Label 50 yourself and compare.
+- [ ] **Build:** Job-post classifier in Python, You ([link](https://platform.claude.com/docs/en/build-with-claude/structured-outputs)), 3 h. Read job posts from a file, send each to Claude, get JSON back: archetype, fit score, reasons. Label 50 yourself and compare.
 
 **Ship:** A Python script that classifies 50 job posts from your own job search, plus a table of where it agreed with you.
 
 ## Week 3: Claude API + backend basics (12 Oct to 18 Oct)
 
-- [ ] **Course:** Building with the Claude API, Anthropic Academy (free, certificate) ([link](https://anthropic.skilljar.com/claude-with-the-anthropic-api)), 6 h. API basics, prompting, tool use, RAG and workflows in one course. Do the exercises in Python for practice.
+- [ ] **Course:** Claude Platform 101, Claude Academy (free) ([link](https://academy.claude.com/courses/claude-platform-101)), 1.5 h. 13 short lessons on the current platform: the agent loop, tools, MCP and managed agents. The map before the detail.
+- [ ] **Course:** Building with the Claude API: through tool use and RAG, Claude Academy (free, certificate) ([link](https://academy.claude.com/courses/building-with-the-claude-api)), 4.5 h. The full API course is 67 lessons; do the sections up to tool use and RAG now, the rest when you need it. Do the exercises in Python for practice.
 - [ ] **Course:** Next.js Learn: the dashboard app (database, server actions, auth), Vercel (free, official) ([link](https://nextjs.org/learn/dashboard-app)), 5 h. Fills your backend gap in the framework you know: Postgres, fetching, mutations, authentication. Every ops product needs these.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 4 h. Same slot every week until it's done.
-- [ ] **Build:** Add a Claude route to the dashboard app, You ([link](https://docs.claude.com/en/docs/get-started)), 2 h. A route that takes a job post, calls Claude, and saves the result to Postgres.
+- [ ] **Build:** Add a Claude route to the dashboard app, You ([link](https://platform.claude.com/docs/en/get-started)), 2 h. A route that takes a job post, calls Claude, and saves the result to Postgres.
 
 **Ship:** A deployed Next.js app with a Postgres database, login, and one Claude-powered route.
 
 ## Week 4: Agents in TypeScript: Claude Agent SDK (19 Oct to 25 Oct)
 
-- [ ] **Docs:** Claude Agent SDK overview + quickstart, Anthropic ([link](https://docs.claude.com/en/docs/agent-sdk/overview)), 2.5 h. Opt in to your Max plan's monthly Agent SDK credit first, so these runs don't use your API balance. The same agent loop, tools, subagents and MCP support that power Claude Code, in TypeScript or Python. This is how you connect career-ops to Claude agents properly.
+- [ ] **Docs:** Claude Agent SDK overview + quickstart, Anthropic ([link](https://code.claude.com/docs/en/agent-sdk/overview)), 2.5 h. Opt in to your Max plan's monthly Agent SDK credit first, so these runs don't use your API balance. The same agent loop, tools, subagents and MCP support that power Claude Code, in TypeScript or Python. This is how you connect career-ops to Claude agents properly.
 - [ ] **Course:** Builders Guide to the AI SDK, Vercel Academy (free, certificate) ([link](https://vercel.com/academy/ai-sdk)), 4 h. Vercel's own course, kept current with the latest AI SDK: structured output, streaming chat, tools, in Next.js. Older free tutorials use outdated SDK versions.
 - [ ] **Read:** Building Effective Agents, Anthropic ([link](https://www.anthropic.com/engineering/building-effective-agents)), 0.5 h. Workflows vs agents, and why you start with the simplest pattern that works.
 - [ ] **Video:** From Vibe Coding to Agentic Engineering, Andrej Karpathy at Sequoia AI Ascent (Apr 2026) ([link](https://www.youtube.com/watch?v=96jN2OCOfLs)), 0.5 h. 29 minutes on how serious agent-built software works now: humans direct and verify, agents do the work. That's the ops model.
-- [ ] **Course:** Select Star SQL, Free interactive book ([link](https://selectstarsql.com/)), 3 h. Backend and growth work both live in SQL: funnels, cohorts, retention.
+- [ ] **Course:** SQL Tutorial: basic, intermediate, then window functions, Mode (now ThoughtSpot), free in the browser ([link](https://www.thoughtspot.com/sql-tutorial)), 3 h. Goes further than most free tutorials: window functions like LAG and ROW_NUMBER are what funnel and cohort queries need. Its analytics case studies come back in week 8.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 3 h. Same slot every week until it's done.
-- [ ] **Build:** Build career-ops' first agent, You ([link](https://docs.claude.com/en/docs/agent-sdk/overview)), 4 h. Start with job evaluation: an agent with tools to read your CV, read the job post, and write a scored report. Your own design, from an empty repo.
+- [ ] **Build:** Build career-ops' first agent, You ([link](https://code.claude.com/docs/en/agent-sdk/overview)), 4 h. Start with job evaluation: an agent with tools to read your CV, read the job post, and write a scored report. Your own design, from an empty repo.
 
 **Ship:** career-ops' first agent, built from scratch on the Claude Agent SDK, with its own tools.
 
 ## Week 5: RAG: give agents your data (26 Oct to 1 Nov)
 
+- [ ] **Read:** Effective context engineering for AI agents, Anthropic (Sep 2025) ([link](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)), 0.75 h. Read this first. Modern agents often search for context as they go instead of retrieving everything up front. RAG is one tool among several; this explains when to use which.
 - [ ] **Course:** Retrieval Augmented Generation (RAG), modules 1 and 2, DeepLearning.AI with Zain Hasan (free to audit on Coursera) ([link](https://www.deeplearning.ai/courses/retrieval-augmented-generation)), 5 h. The most complete current RAG course: keyword, semantic and hybrid search, then vector databases. Do the rest later if RAG becomes central to your product.
 - [ ] **Read:** Introducing Contextual Retrieval, Anthropic ([link](https://www.anthropic.com/news/contextual-retrieval)), 0.5 h. A simple trick that cuts failed retrievals a lot.
 - [ ] **Book:** AI Engineering, chapter 2, Chip Huyen ([link](https://github.com/chiphuyen/aie-book)), 2 h. Foundation models, sampling, why outputs vary. One page of notes.
@@ -79,9 +82,8 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 ## Week 6: Agents, MCP + plan the ops suite (2 Nov to 8 Nov)
 
 - [ ] **Course:** Hugging Face Agents Course, Unit 1, Hugging Face (free, certificate) ([link](https://huggingface.co/learn/agents-course)), 3 h. The Thought, Action, Observation loop from first principles, in Python. Get the Unit 1 certificate.
-- [ ] **Read:** Effective context engineering for AI agents, Anthropic ([link](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)), 0.75 h. What to put in an agent's context and what to leave out. Directly useful for career-ops' modes and profile files.
-- [ ] **Read:** Patterns for Building LLM-based Systems & Products, Eugene Yan ([link](https://eugeneyan.com/writing/llm-patterns/)), 1 h. Evals, RAG, guardrails, caching, user feedback, in one long post.
-- [ ] **Course:** Introduction to Model Context Protocol, Anthropic Academy (free, certificate) ([link](https://anthropic.skilljar.com/introduction-to-model-context-protocol)), 3 h. Build MCP servers and clients. MCP is how every ops product will share tools.
+- [ ] **Read:** Writing effective tools for agents, Anthropic (Sep 2025) ([link](https://www.anthropic.com/engineering/writing-tools-for-agents)), 0.75 h. How to design the tools your agents call: names, inputs, what to return. Directly shapes your MCP server this week.
+- [ ] **Course:** Introduction to Model Context Protocol, Claude Academy (free, certificate) ([link](https://academy.claude.com/courses/introduction-to-model-context-protocol)), 3 h. Build MCP servers and clients. The course uses Python; build your own server afterwards with the official TypeScript SDK (github.com/modelcontextprotocol/typescript-sdk). MCP is how every ops product will share tools.
 - [ ] **Book:** AI Engineering, chapter 6, Chip Huyen ([link](https://github.com/chiphuyen/aie-book)), 2 h. RAG and agents, with the reasoning behind each pattern. Read chapter 5 (prompting) later if you have time.
 - [ ] **Build:** MCP server for the career-ops tracker, You ([link](https://modelcontextprotocol.io/)), 3 h. Expose applications, pipeline and follow-ups as MCP tools, in TypeScript. Any agent in the suite can then use them.
 - [ ] **Plan:** Write the ops suite spec, You, 2 h. One page: shared core, career-ops scope, marketing-ops MVP scope, what waits until after week 12.
@@ -93,8 +95,8 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 
 - [ ] **Read:** Your AI Product Needs Evals, Hamel Husain ([link](https://hamel.dev/blog/posts/evals/)), 1 h. Three levels: assertions, human and model grading, A/B tests.
 - [ ] **Read:** AI Evals FAQ, Hamel Husain and Shreya Shankar ([link](https://hamel.dev/blog/posts/evals-faq/)), 2 h. Start from real traces, find failure modes, then write evals for the ones that matter.
-- [ ] **Course:** Evaluating AI Agents, DeepLearning.AI x Arize (free) ([link](https://www.deeplearning.ai/courses/evaluating-ai-agents)), 2 h. Tracing, structured experiments, monitoring an agent after launch.
-- [ ] **Video:** Evals and Context Engineering track talks, AI Engineer World's Fair 2026 (July 2026) ([link](https://yoheinakajima.github.io/aie-talks/)), 1.5 h. Use the Talk Explorer to pick two talks from the Evals track and one from Context Engineering. All are free on the AI Engineer YouTube channel.
+- [ ] **Read:** Demystifying evals for AI agents, Anthropic (Jan 2026) ([link](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)), 1.5 h. Anthropic's own guide to evaluating agents: tasks, trials, graders, and checking what the agent actually changed, not just its final message.
+- [ ] **Video:** Your Agent Evolved. Your Evals Didn't., Ameya Bhatawdekar, Braintrust, AI Engineer World's Fair 2026 ([link](https://www.youtube.com/watch?v=nxokqOq1imY)), 0.5 h. The standout evals talk of the conference: why you grade a spread of runs (pass@k) instead of a single answer once agents get capable.
 - [ ] **Book:** AI Engineering, chapters 3 and 4, Chip Huyen ([link](https://github.com/chiphuyen/aie-book)), 3 h. Evaluation methods and how to build an evaluation pipeline.
 - [ ] **Build:** Golden set from your own job search history, You ([link](https://hamel.dev/blog/posts/llm-judge/)), 5 h. 50+ JDs you've scored by hand, including ones where the agent's score was wrong. Measure how close the agent gets. Add an LLM judge for report quality.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 3 h. Same slot every week until it's done. From scratch, it may run into January; that's fine.
@@ -104,7 +106,8 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 ## Week 8: Growth engineering core (16 Nov to 22 Nov)
 
 - [ ] **Read:** A software engineer's guide to A/B testing, PostHog ([link](https://posthog.com/product-engineers/ab-testing-guide-for-engineers)), 0.5 h. Hypothesis, goal metric, one change at a time, run for at least a week.
-- [ ] **Book:** Trustworthy Online Controlled Experiments, ch. 1 to 3, Kohavi, Tang, Xu ([link](https://experimentguide.com/)), 3 h. You know ad A/B tests. This covers product experiments and the stats behind a trustworthy result.
+- [ ] **Book:** Trustworthy Online Controlled Experiments, chapter 1 (free PDF), Kohavi, Tang, Xu ([link](https://experimentguide.com/wp-content/uploads/TrustworthyOnlineControlledExperiments_PracticalGuideToABTesting_Chapter1.pdf)), 2 h. Still the standard A/B testing reference. Chapter 1 is free from the authors; buy the book later for chapters 2 and 3.
+- [ ] **Course:** Case study: Investigating a Drop in User Engagement, Mode / ThoughtSpot SQL tutorial ([link](https://www.thoughtspot.com/sql-tutorial/a-drop-in-user-engagement)), 2 h. A realistic growth analytics problem solved in SQL. The kind of question you'll get in growth engineer interviews.
 - [ ] **Tool:** Sample size calculator, Evan Miller ([link](https://www.evanmiller.org/ab-testing/sample-size.html)), 0.5 h. Plug in a real conversion rate from a past client and see how much traffic a test needs.
 - [ ] **Video:** The DNA of a Great Growth Engineer, Alexey Komissarouk, Reforge (Nov 2023) ([link](https://www.youtube.com/watch?v=fFZBZJrnUIg)), 1 h. Older, but still the clearest talk on what growth engineers do; the role's fundamentals haven't changed. The Elena Verna episode in week 9 covers the 2026 AI angle.
 - [ ] **Course:** Clay 101: GTM Automation, Clay University (free) ([link](https://university.clay.com/courses/clay-101)), 2 h. Prep for prospect-ops: find, enrich, transform, export. GTM engineering in two hours.
@@ -116,7 +119,7 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 ## Week 9: AI-era growth + career-ops sprint (23 Nov to 29 Nov)
 
 - [ ] **Podcast:** The new AI growth playbook for 2026, Elena Verna on Lenny's Podcast ([link](https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna)), 1.5 h. How Lovable grew: loops, retention first, giving the product away. Directly relevant to launching career-ops.
-- [ ] **Read:** Three posts from Elena's Growth Scoop, Elena Verna ([link](https://www.elenaverna.com/)), 1 h. Pick posts on growth loops and retention. Write down which loop career-ops could use.
+- [ ] **Podcast:** “Claude is growing itself at this point”, Amol Avasare, Anthropic head of growth, on Lenny's Podcast (Apr 2026) ([link](https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run)), 2 h. The best 2026 episode for you: how Anthropic uses Claude to find, build, test and analyse growth experiments. AI engineering and growth engineering in one system, which is what your ops suite does.
 - [ ] **Docs:** Langfuse tracing quickstart, Langfuse (open source) ([link](https://langfuse.com/docs)), 1 h. See every prompt, tool call, cost and latency across all your agents.
 - [ ] **Build:** career-ops sprint: agents, RAG, MCP, tracing together, You, 10 h. Wire everything from weeks 4 to 7 into one product. Human approval before anything is sent.
 - [ ] **Course:** Google Digital Marketing & E-commerce Certificate: keep going, Google on Coursera ([link](https://grow.google/certificates/digital-marketing-ecommerce/)), 3 h. Same slot every week until it's done. From scratch, it may run into January; that's fine.
@@ -125,7 +128,8 @@ Interactive version with progress tracking: https://claude.ai/artifact/6GB2UzyNK
 
 ## Week 10: career-ops: ship it (30 Nov to 6 Dec)
 
-- [ ] **Build:** Cost and latency budget, You ([link](https://docs.claude.com/en/docs/build-with-claude/prompt-caching)), 3 h. Show cost per evaluation. Use prompt caching and smaller models where evals say quality holds.
+- [ ] **Build:** Cost and latency budget, You ([link](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)), 3 h. Show cost per evaluation. Use prompt caching and smaller models where evals say quality holds.
+- [ ] **Video:** How Anthropic Builds: Lessons from Labs, Mike Krieger, Anthropic, AI Engineer World's Fair 2026 ([link](https://www.youtube.com/watch?v=qqrk7CtkuIw)), 0.5 h. How Anthropic's product team builds with Claude: agents work on well-scoped tasks and pause for a human at decisions that matter. Good checklist before you ship.
 - [ ] **Build:** Grow the eval set by 30 cases, You, 2 h. Every real failure becomes a test case. Re-run evals after every change.
 - [ ] **Build:** Onboarding: first evaluated job in under 10 minutes, You ([link](https://posthog.com/product-engineers/growth-engineering)), 4 h. Measure time-to-value in PostHog. Cut steps until new users get a scored job fast.
 - [ ] **Build:** First A/B test on the landing page, You ([link](https://posthog.com/docs/experiments)), 2 h. Test one headline. Let it run a full week before you call it.
